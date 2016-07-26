@@ -10,7 +10,7 @@ server.get('/', function(req, res, next) {
     res.send('Hi! Click on http://mangoes.azurewebsites.net for Mangoes List.');
     // res.redirect('http://mangoes.azurewebsites.net', next);
 });
-server.listen(process.env.port || 80, function () {
+server.listen(process.env.port || 3978, function () {
    console.log('%s listening to %s', server.name, server.url); 
 }); 
 
