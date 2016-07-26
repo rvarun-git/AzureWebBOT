@@ -1,0 +1,22 @@
+{
+  "name": "azurewebbot",
+  "version": "1.0.0",
+  "description": "Malgova.azurewebsites.net - AzureWebBOT GIT repository",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "malgova",
+    "mangoes"
+  ],
+  "author": "RVA",
+  "license": "ISC",
+  "dependencies": {
+    "azure": "^1.1.1-preview",
+    "azure-storage": "^1.1.0",
+    "botbuilder": "^3.1.1",
+    "restify": "^4.1.1"
+  }
+}
