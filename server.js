@@ -1,7 +1,7 @@
 var restify = require('restify');
 var builder = require('botbuilder');
 const APP_ID = "d43f1f3a-a301-4678-9e67-bdba5aeb1a4a";
-const APP_SECRET = "cac9d798565e4b6e9df1a84fa79b9024";
+const APP_PASSWORD = "jvUwHXFu3haurJfB14MBAY9";
 
 
 // Setup Restify Server
@@ -15,9 +15,15 @@ server.listen(process.env.port || 80, function () {
 });
 
 // Create bot add dialogs
+/*
 var connector = new builder.ChatConnector({
     appId: APP_ID,
-    appPassword: APP_SECRET
+    appPassword: APP_PASSWORD
+});
+*/
+var connector = new builder.ChatConnector({
+    appId: null,
+    appPassword: null
 });
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
