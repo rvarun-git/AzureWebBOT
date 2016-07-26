@@ -1,22 +1,33 @@
 {
-  "name": "azurewebbot",
+  "name": "package.json",
   "version": "1.0.0",
-  "description": "Malgova.azurewebsites.net - AzureWebBOT GIT repository",
+  "description": "azurewebbot",
   "main": "server.js",
-  "scripts": {
-    "test": "node server.js",
-    "start": "node server.js"
-  },
-  "keywords": [
-    "malgova",
-    "mangoes"
-  ],
-  "author": "RVA",
-  "license": "ISC",
   "dependencies": {
     "azure": "^1.1.1-preview",
     "azure-storage": "^1.1.0",
     "botbuilder": "^3.1.1",
     "restify": "^4.1.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvarun-git/AzureWebBOT.git"
+  },
+  "keywords": [
+    "mangoes",
+    "malgova",
+    "skype",
+    "azurewebbot"
+  ],
+  "author": "RVA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvarun-git/AzureWebBOT/issues"
+  },
+  "homepage": "https://github.com/rvarun-git/AzureWebBOT#readme"
 }
