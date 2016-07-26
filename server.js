@@ -7,7 +7,7 @@ const APP_SECRET = "cac9d798565e4b6e9df1a84fa79b9024";
 // Setup Restify Server
 var server = restify.createServer();
 server.get('/', function(req, res, next) {
-    res.send('Hi! Click on http://mangoes.azurewebsites.net for Mangoes List');
+    res.send('Hi! Click on http://mangoes.azurewebsites.net for Mangoes List.');
     // res.redirect('http://mangoes.azurewebsites.net', next);
 });
 server.listen(process.env.port || 80, function () {
