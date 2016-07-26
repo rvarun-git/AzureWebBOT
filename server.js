@@ -12,7 +12,7 @@ server.get('/', function(req, res, next) {
 });
 server.listen(process.env.port || 80, function () {
    console.log('%s listening to %s', server.name, server.url); 
-});
+}); 
 
 // Create bot add dialogs
 /*
