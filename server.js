@@ -24,7 +24,7 @@ server.post('/api/messages', connector.listen());
 
 
 // Add commands
-bot.dialog('/api/messages', [
+bot.dialog('/', [
     function (session) {
         builder.Prompts.choice(session, "What flavor of pizza do you want?", "Pepperoni|Meat Lovers|Hawaiian|Veggie");
     }, 
